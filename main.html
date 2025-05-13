@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Requerimientos Funcionales</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .module {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      border-left: 6px solid #3498db;
+      transition: transform 0.2s;
+    }
+
+    .module:hover {
+      transform: scale(1.01);
+    }
+
+    .module h2 {
+      margin-top: 0;
+      color: #2980b9;
+    }
+
+    .requirement {
+      margin: 0.5rem 0;
+      padding-left: 1rem;
+      border-left: 3px solid #ccc;
+    }
+
+    .rf-code {
+      font-weight: bold;
+      color: #e74c3c;
+      margin-right: 0.5rem;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      .module {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Requerimientos Funcionales</h1>
+
+    <div class="module">
+      <h2>Ventas</h2>
+      <p class="requirement"><span class="rf-code">RF-01:</span>El sistema debe permitir crear cotizaciones con productos, cantidades, precios e impuestos.</p>
+    </div>
+
+    <div class="module">
+      <h2>Compras</h2>
+      <p class="requirement"><span class="rf-code">RF-06:</span>El sistema debe registrar proveedores y asociarlos con productos y condiciones de compra.</p>
+    </div>
+
+    <div class="module">
+      <h2>Inventario</h2>
+      <p class="requirement"><span class="rf-code">RF-12:</span>El sistema debe notificar automáticamente cuando el stock de un producto esté por debajo del mínimo.</p>
+    </div>
+
+    <div class="module">
+      <h2>Contabilidad</h2>
+      <p class="requirement"><span class="rf-code">RF-15:</span>El sistema debe generar reportes contables como balances generales, estado de resultados y libros oficiales.</p>
+    </div>
+
+    <div class="module">
+      <h2>CRM</h2>
+      <p class="requirement"><span class="rf-code">RF-16:</span>El sistema debe permitir crear leads desde formularios web o ingreso manual.</p>
+    </div>
+
+    <div class="module">
+      <h2>Recursos Humanos</h2>
+      <p class="requirement"><span class="rf-code">RF-21:</span>El sistema debe permitir generar la nómina mensual de empleados con base en horas trabajadas y deducciones.</p>
+    </div>
+
+    <div class="module">
+      <h2>Proyectos</h2>
+      <p class="requirement"><span class="rf-code">RF-22:</span>El sistema debe permitir crear proyectos, tareas y asignar responsables.</p>
+    </div>
+
+    <div class="module">
+      <h2>Marketing</h2>
+      <p class="requirement"><span class="rf-code">RF-25:</span>El sistema debe permitir crear campañas de email dirigidas a grupos de clientes.</p>
+      <p class="requirement"><span class="rf-code">RF-27:</span>El sistema debe permitir enviar campañas de SMS a contactos segmentados.</p>
+    </div>
+
+    <div class="module">
+      <h2>Punto de Venta (PdV)</h2>
+      <p class="requirement"><span class="rf-code">RF-30:</span>El sistema debe sincronizar los datos de ventas con el inventario general automáticamente.</p>
+    </div>
+  </div>
+</body>
+</html>
